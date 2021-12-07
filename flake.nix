@@ -4,5 +4,6 @@
   outputs = { self, nixpkgs }:
   {
     packages."x86_64-linux".nvidia-offload = nixpkgs.legacyPackages."x86_64-linux".callPackage ./pkgs/nvidia-offload.nix {};
+    defaultPackage."x86_64-linux" = self.packages."x86_64-linux".nvidia-offload;
   };
 }
