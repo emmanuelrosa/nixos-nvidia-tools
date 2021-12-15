@@ -1,4 +1,7 @@
 # nixos-nvidia-tools
+
+NOTICE: This repository has been replaced by https://github.com/emmanuelrosa/erosanix.
+
 This Nix flake contains NVIDIA-related tools for NixOS.
 
 ## Installation (in configuration.nix) using flakes
